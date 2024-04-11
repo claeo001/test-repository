@@ -6,10 +6,14 @@ import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.cloud.openfeign.FeignAutoConfiguration;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EnableFeignClients
 @SpringBootApplication
 @RequiredArgsConstructor
+@EnableJpaAuditing
+@EnableJpaRepositories
 @ImportAutoConfiguration({FeignAutoConfiguration.class})
 public class UserApplication {
 
