@@ -1,4 +1,4 @@
-package com.zerobase.cms.user.appAcation;
+package com.zerobase.cms.user.application;
 
 import com.zerobase.cms.user.client.MailgunClient;
 import com.zerobase.cms.user.client.mailgun.SendMailForm;
