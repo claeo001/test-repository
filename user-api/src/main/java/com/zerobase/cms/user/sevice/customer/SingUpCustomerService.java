@@ -1,4 +1,4 @@
-package com.zerobase.cms.user.sevice;
+package com.zerobase.cms.user.sevice.customer;
 
 import com.zerobase.cms.user.domain.SignUpForm;
 import com.zerobase.cms.user.domain.model.Customer;
